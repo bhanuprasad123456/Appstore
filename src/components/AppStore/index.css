@@ -1,0 +1,63 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+.bg-container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.tab-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.apps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-item {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.tab-item.active {
+  background-color: #f1f1f1;
+}
+
+.app-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
